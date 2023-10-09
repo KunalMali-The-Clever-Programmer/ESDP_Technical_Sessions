@@ -1,0 +1,10 @@
+with open("abc.txt",'r+') as f:
+    filedata=f.read()
+    print(filedata)
+    print("Currcer cursor POsition is ",f.tell())
+    f.seek(15)
+    print("Currcer cursor POsition is ",f.tell())
+    f.write("---java--")
+    f.seek(0)
+    filedata=f.read()
+    print(filedata)

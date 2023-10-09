@@ -1,0 +1,7 @@
+f=open("kunal.txt",'w')
+f.write("Kunal \n")
+f.write("om \n")
+f.write("abc \n")
+f.write("xyz \n")
+print("File writeing opretion is done succfully .......")
+f.close()

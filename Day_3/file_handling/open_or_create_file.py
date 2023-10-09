@@ -1,0 +1,8 @@
+f=open("kunal.txt",'w')
+print("File name is : ",f.name)
+print("File mode is : ",f.mode)
+print("File is readable",f.readable())
+print("File is writeable",f.writable())
+print("File is closed or not : ",f.closed)
+f.close()
+print("File is Closed or not ",f.closed)

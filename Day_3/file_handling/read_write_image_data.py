@@ -1,0 +1,5 @@
+f1=open("img1.png","rb")
+f2=open("newimg.png","wb")
+bytes=f1.read()
+print(bytes)
+print("New image is avalieble: ")
