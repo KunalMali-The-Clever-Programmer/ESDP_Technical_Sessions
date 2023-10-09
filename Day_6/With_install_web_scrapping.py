@@ -9,3 +9,4 @@ for i in site:
     text=u.read()
     title=re.findall("<title>.*</title>",str(text),re.I)
     print(title[0])
+    
