@@ -1,2 +1,2 @@
 # ESDP_Technical_Sessions
-Python Prorams (basic code and oop concepts.)
+Python programs (basic code and oop concepts.)
